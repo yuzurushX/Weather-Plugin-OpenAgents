@@ -22,4 +22,5 @@ You can customize the provided data by modifying the code, for more information 
 extism call plugin.wasm run --wasi --allow-host="wttr.in" --input="City/Area"
 ```
 
-## Usage Example & Response
+## Example
+![image](https://github.com/yuzurushX/Weather-Plugin-OpenAgents/assets/168862430/fd399bb4-1e07-4f38-8df5-99f3f02d7c55)
