@@ -1,6 +1,6 @@
 tasks:
   - init: |
       curl -O https://raw.githubusercontent.com/extism/js-pdk/main/install.sh
-      sh install.sh
+      yes | sh install.sh  # Pipe 'yes' output to the install script
       curl -s https://get.extism.org/cli | sh
   - command: extism --help  # Optional: Verify that Extism CLI is installed correctly
